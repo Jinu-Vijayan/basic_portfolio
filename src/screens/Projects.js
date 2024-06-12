@@ -2,6 +2,11 @@ import React from 'react'
 import pokedex_thumbnail from '../assets/images/pokedex_thumbnail.png'
 import stop_watch_thumbnail from '../assets/images/stop_watch_thumpnail.png'
 import grocery_bud_thumbnail from "../assets/images/grocery_bud_thumbnail.png"
+import weather_app_thumpnail from '../assets/images/weather_app_thumpnail.png'
+import ecommerse_app_thumpnail from '../assets/images/ecommerse_app_thumpnail.png'
+import movie_app_thumpnail from '../assets/images/movie_app_thumpnail.png'
+import budget_planner_thumpnail from '../assets/images/budget_planner_thumbnail.png'
+import text_utils_thumpnail from '../assets/images/text_utils_thumpnail.png'
 import ProjectCard from '../components/ProjectCard';
 
 const projectData = [
@@ -14,16 +19,51 @@ const projectData = [
   },
   {
     project_name : "Stop Watch",
-    hosted_link : "https://github.com/Jinu-Vijayan/stop_watch/",
-    git_repo_link : "https://jinu-vijayan.github.io/stop_watch/",
+    hosted_link : " https://jinu-vijayan.github.io/stop_watch/",
+    git_repo_link : "https://github.com/Jinu-Vijayan/stop_watch/",
     thumbnail : stop_watch_thumbnail,
     tech_stack : "HTML | CSS | JS"
   },
   {
     project_name : "Grocery bud",
-    hosted_link : "https://github.com/Jinu-Vijayan/grocery_bud",
-    git_repo_link : "https://tranquil-medovik-846758.netlify.app/",
+    hosted_link : "https://tranquil-medovik-846758.netlify.app/",
+    git_repo_link : "https://github.com/Jinu-Vijayan/grocery_bud ",
     thumbnail : grocery_bud_thumbnail,
+    tech_stack : "HTML | CSS | JS| React"
+  },
+  {
+    project_name : "Movie app",
+    hosted_link : "https://tangerine-bublanina-5be269.netlify.app/",
+    git_repo_link : "https://github.com/Jinu-Vijayan/movie-app/tree/main",
+    thumbnail : movie_app_thumpnail,
+    tech_stack : "HTML | CSS | JS| React"
+  },
+  {
+    project_name : "Weather App",
+    hosted_link : "https://serene-peony-439364.netlify.app/",
+    git_repo_link : "https://github.com/Jinu-Vijayan/weather_app ",
+    thumbnail : weather_app_thumpnail,
+    tech_stack : "HTML | CSS | JS| React"
+  },
+  {
+    project_name : "Basic ecommerse app",
+    hosted_link : "https://dapper-elf-57b976.netlify.app/",
+    git_repo_link : "https://github.com/Jinu-Vijayan/basic_ecommers_app ",
+    thumbnail : ecommerse_app_thumpnail,
+    tech_stack : "HTML | CSS | JS| React"
+  },
+  {
+    project_name : "Budget planner",
+    hosted_link : "https://dainty-kitten-04f074.netlify.app/",
+    git_repo_link : "https://github.com/Jinu-Vijayan/budget_planner ",
+    thumbnail : budget_planner_thumpnail,
+    tech_stack : "HTML | CSS | JS| React"
+  },
+  {
+    project_name : "Text Utils",
+    hosted_link : "https://stately-kitten-8c5d17.netlify.app/",
+    git_repo_link : "https://github.com/Jinu-Vijayan/text_utils ",
+    thumbnail : text_utils_thumpnail,
     tech_stack : "HTML | CSS | JS| React"
   },
 ];
