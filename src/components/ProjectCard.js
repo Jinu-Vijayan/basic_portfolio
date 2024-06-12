@@ -13,7 +13,7 @@ const ProjectCard = ({thumbnail, tech_stack, name , hosted_link, git_repo, desc}
     <div className='flex flex-col items-center w-[45%] rounded-xl shadow-md p-3 ' style={{
       backgroundColor : "#627d8d"
     }}>
-        <img src={thumbnail}/>
+        <img alt={`thumb nail of ${name}`} src={thumbnail}/>
         
         <p>Project name: {name}</p>
         <p style={{
