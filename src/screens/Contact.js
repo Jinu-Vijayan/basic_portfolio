@@ -15,16 +15,24 @@ const Contact = () => {
   }
 
   return (
-    <div className='p-4 shadow-md mt-6 rounded-xl font-sans'>
+    <div className='p-4 shadow-md mt-6 rounded-xl font-sans' style={{
+      backgroundColor : "#1d618c"
+    }}>
       <h1 className=' text-4xl font-bold mb-4 '>Contact</h1>
-      <div className='shadow-md rounded-xl p-3 flex flex-col items-center'>
+      <div className='shadow-md rounded-xl p-3 flex flex-col items-center' style={{
+      backgroundColor : "#627d8d"
+    }}>
         <p className='text-2xl font-bold mb-3'>Email:</p>
         <div className='flex gap-2 bg-gray-300 px-5 py-1 rounded-md justify-center items-center'>
-          <p ref={email}>jinuvijayan01@gmail.com</p>
+          <p ref={email} style={{
+            color : "black"
+          }}>jinuvijayan01@gmail.com</p>
           <button onClick={clickHandler} className='bg-blue-700 px-3 py-1 rounded-sm text-white '>Copy</button>
         </div>
       </div>
-      <div className='shadow-md rounded-xl p-3 flex flex-col items-center mt-10'>
+      <div className='shadow-md rounded-xl p-3 flex flex-col items-center mt-10' style={{
+      backgroundColor : "#627d8d"
+    }}>
         <p className='text-2xl font-bold mb-3'>Socials:</p>
 
         <div className = "flex gap-2.5 justify-center text-4xl ">

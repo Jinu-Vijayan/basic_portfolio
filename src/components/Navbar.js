@@ -14,10 +14,10 @@ const routes = [
     path: "/projects",
     name: "Projects",
   },
-  {
-    path: "/more",
-    name: "More",
-  },
+  // {
+  //   path: "/more",
+  //   name: "More",
+  // },
   {
     path: "/contact",
     name: "Contact",

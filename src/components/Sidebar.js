@@ -21,7 +21,9 @@ const detailsCardData = [
 
 const Sidebar = () => {
   return (
-    <div className=' w-8/12 p-6 rounded-xl shadow-xl flex flex-col items-center justify-center '>
+    <div className=' w-8/12 p-6 rounded-xl shadow-2xl flex flex-col items-center justify-center ' style={{
+      backgroundColor : "#1d618c"
+    }}>
       <img src={profile_pic} alt='profile picture' className = 'w-32 rounded-xl '/>
       <p className=' text-center mb-6  '>Jinu Vijayan</p>
       {/* <br className=' border-black border-2 '/> */}

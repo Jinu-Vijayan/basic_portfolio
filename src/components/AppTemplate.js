@@ -6,7 +6,7 @@ import Navbar from './Navbar'
 
 const AppTemplate = () => {
   return (
-    <div className='flex  h-screen '>
+    <div className='flex  h-screen  bg-sky-500/100 text-white '>
         <div className='w-1/3 flex items-center justify-center '>
             <Sidebar/>
         </div>

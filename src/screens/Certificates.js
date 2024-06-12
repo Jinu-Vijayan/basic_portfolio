@@ -13,7 +13,9 @@ const certificateData = [
 
 const Certificates = () => {
   return (
-    <div className='p-4 shadow-md mt-6 rounded-xl font-sans'>
+    <div className='p-4 shadow-md mt-6 rounded-xl font-sans' style={{
+      backgroundColor : "#1d618c"
+    }}>
       <h1 className=' text-4xl font-bold mb-4 '>Certificates</h1>
       <div>
         {

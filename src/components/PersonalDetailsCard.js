@@ -7,7 +7,7 @@ const PersonalDetailsCard = ({icon, title, data}) => {
             {icon}
         </div>
         <div>
-            <p className='text-gray-400'>{title}</p>
+            <p className='text-white'>{title}</p>
             <p>{data}</p>
         </div>
     </div>
